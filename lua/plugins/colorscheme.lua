@@ -1,8 +1,7 @@
 return {
-  "Shatur/neovim-ayu",
-  lazy = false,
-  priority = 1000,
+  "rose-pine/neovim",
+  name = "rose-pine",
   config = function()
-    vim.cmd.colorscheme("ayu-mirage")
-  end,
+    vim.cmd("colorscheme rose-pine")
+  end
 }
