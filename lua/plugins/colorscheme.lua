@@ -1,8 +1,9 @@
 return {
-  "Shatur/neovim-ayu",
-  lazy = false,
-  priority = 1000,
+  "vague-theme/vague.nvim",
   config = function()
-    vim.cmd.colorscheme("ayu-mirage")
-  end,
+    require("vague").setup({
+      transparent = true
+    })
+    vim.cmd("colorscheme vague")
+  end
 }

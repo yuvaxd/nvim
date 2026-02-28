@@ -19,12 +19,13 @@ vim.opt.incsearch = true
 vim.o.termguicolors = true
 vim.o.signcolumn = "yes"
 vim.o.winborder = "bold"
+vim.o.confirm = true
 
 vim.o.updatetime = 250
 
 vim.o.swapfile = false
 
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 vim.schedule(function() vim.o.clipboard = "unnamedplus" end)
 
