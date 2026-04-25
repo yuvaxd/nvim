@@ -18,7 +18,7 @@ vim.opt.incsearch = true
 
 vim.o.termguicolors = true
 vim.o.signcolumn = "yes"
-vim.o.winborder = "bold"
+vim.o.winborder = "rounded"
 vim.o.confirm = true
 
 vim.o.updatetime = 250
